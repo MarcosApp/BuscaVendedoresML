@@ -45,7 +45,7 @@ class BuscaInfoBase(context: SearchPersonActivity) : AsyncTask<Int, Void, Boolea
 
             if (result == true) {
 
-                EnviarDadosPersonRequest().executeDadosRequest(activity)
+                //EnviarDadosPersonRequest().executeDadosRequest(activity)
             }
             else
                 if (true) {
