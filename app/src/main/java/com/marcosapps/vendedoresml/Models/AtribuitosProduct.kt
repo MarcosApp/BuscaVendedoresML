@@ -1,0 +1,1 @@
+package com.marcosapps.vendedoresml.Modelsclass AtribuitosProduct {    private lateinit var Nome:String    private lateinit var ValueId:String    private lateinit var Condicao:String}

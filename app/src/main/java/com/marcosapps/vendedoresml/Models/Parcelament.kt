@@ -1,0 +1,1 @@
+package com.marcosapps.vendedoresml.Modelsclass Parcelament {    //Results -> Parcelamento    private var Quantidade:Int = 0    private var Quantia:Int = 0    private var ValorParcela:Int = 0    private var Taxa:Int = 0    private lateinit var TipoMoeda:String}

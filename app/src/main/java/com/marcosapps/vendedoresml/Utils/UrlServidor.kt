@@ -1,0 +1,1 @@
+package com.marcosapps.vendedoresml.Utilsclass UrlServidor {    val URL_SERVIDOR = "https://api.mercadolibre.com";    val MY_SERVER = "http://vendasml.somee.com/"    val VERIFICAUSER = MY_SERVER + "api/UserPersons/"    val URL_SERVERUSER = URL_SERVIDOR + "/users/"    val URL_APELIDO = URL_SERVIDOR + "/sites/MLB/search?nickname="}

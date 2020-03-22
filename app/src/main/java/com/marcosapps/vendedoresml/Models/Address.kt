@@ -1,0 +1,1 @@
+package com.marcosapps.vendedoresml.Modelsclass Address {    lateinit var EstadoId:String    lateinit var EstadoName:String    lateinit var CidadeId:String    lateinit var CidadeName:String}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:fontFamily="@font/fontawesomefont"
+        android:text="@string/vendedor_naoencontrado"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDialog" />
+
+    <TextView
+        android:id="@+id/textDescricao"
+        android:fontFamily="@font/fontawesomefont"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textSize="14sp"
+        app:autoSizeTextType="uniform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verifique_dados"/>
+
+    <Button
+        android:background="@color/colorDialog"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/fontawesomefont"
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCancelar" />
+
+</LinearLayout>
